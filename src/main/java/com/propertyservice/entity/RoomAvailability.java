@@ -12,6 +12,7 @@ public class RoomAvailability {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private long id;
+    private String name;
 
     private LocalDate availableDate;
     private int availableCount;
